@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>issue_approval</internal_name>
+        <label_cache>[{"name":"131b4113-9e53-41be-81b0-25c2e4114992.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"Updated_1.current","label":"Trigger➛Issue Record","reference":"x_134061_safety_issue","reference_display":"Issue","type":"reference","base_type":"reference"},{"name":"Updated_1.current.opened_by","label":"Trigger➛Issue Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_134061_safety_issue","column_name":"opened_by"},{"name":"29cf6cdc-c2f5-4dcd-b901-e8d4ec447145.record","label":"2.1➛Issue Record","reference":"x_134061_safety_issue","reference_display":"Issue","type":"reference","base_type":"reference"},{"name":"29cf6cdc-c2f5-4dcd-b901-e8d4ec447145.table_name","label":"2.1➛Issue Table","reference":"x_134061_safety_issue","reference_display":"Issue","type":"table_name","base_type":"table_name"},{"name":"794f9bc6-b8e7-4400-98e4-86a00bb266ff.record","label":"3.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"794f9bc6-b8e7-4400-98e4-86a00bb266ff.table_name","label":"3.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"}]</label_cache>
+        <latest_snapshot>d0d318f2dbf13300d9adf53a299619d3</latest_snapshot>
+        <master_snapshot>b46390f2dbf13300d9adf53a29961933</master_snapshot>
+        <name>Issue approval</name>
+        <outputs/>
+        <remote_trigger_id>496390f2dbf13300d9adf53a299619c6</remote_trigger_id>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>luke.wilson</sys_created_by>
+        <sys_created_on>2019-06-06 04:50:47</sys_created_on>
+        <sys_id>4610dc32dbf13300d9adf53a29961938</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Issue approval</sys_name>
+        <sys_package display_value="Safety (Tech Shorts)" source="x_134061_safety">e5c37240db112300d9adf53a29961932</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety (Tech Shorts)">e5c37240db112300d9adf53a29961932</sys_scope>
+        <sys_update_name>sys_hub_flow_4610dc32dbf13300d9adf53a29961938</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-06-06 05:07:03</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=4610dc32dbf13300d9adf53a29961938"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4610dc32dbf13300d9adf53a29961938"/>
+</record_update>

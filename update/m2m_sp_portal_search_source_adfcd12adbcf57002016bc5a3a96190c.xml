@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_search_source">
+    <m2m_sp_portal_search_source action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sp_portal display_value="">01f15d62dbcf57002016bc5a3a96190d</sp_portal>
+        <sp_search_source display_value="Knowledge Bases">c6170ae86721220023c82e08f585efe6</sp_search_source>
+        <sys_class_name>m2m_sp_portal_search_source</sys_class_name>
+        <sys_created_by>paul.douglas@bighouseresources.com</sys_created_by>
+        <sys_created_on>2018-07-05 02:44:20</sys_created_on>
+        <sys_id>adfcd12adbcf57002016bc5a3a96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Safety (Tech Shorts)" source="x_134061_safety">e5c37240db112300d9adf53a29961932</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety (Tech Shorts)">e5c37240db112300d9adf53a29961932</sys_scope>
+        <sys_update_name>m2m_sp_portal_search_source_adfcd12adbcf57002016bc5a3a96190c</sys_update_name>
+        <sys_updated_by>paul.douglas@bighouseresources.com</sys_updated_by>
+        <sys_updated_on>2018-07-05 02:44:20</sys_updated_on>
+    </m2m_sp_portal_search_source>
+</record_update>
